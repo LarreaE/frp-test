@@ -1,9 +1,6 @@
-serverAddr = "127.0.0.1"
-serverPort = 7000
+serverAddr = 45.13.211.248
+serverPort = 7001
+auth_token = 123
 
-[[proxies]]
-name = "test-tcp"
-type = "tcp"
-localIP = "127.0.0.1"
-localPort = 22
-remotePort = 6000
+[ssh]
+local_port = 22
